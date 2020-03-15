@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leo\\testmovie\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\leo\\Documents\\vscodeprgs\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leo\\testmovie\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\leo\\Documents\\vscodeprgs\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leo\\testmovie\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\leo\\Documents\\vscodeprgs\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\leo\\testmovie\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "C:\\Users\\leo\\Documents\\vscodeprgs\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\leo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leo\\testmovie\\MvcMovie\\obj\\",
+        "outputPath": "C:\\Users\\leo\\Documents\\vscodeprgs\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,26 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
